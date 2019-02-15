@@ -4,5 +4,5 @@ def countdown(num)
   num.downto(1) do |i|
     puts "#{i} SECOND#{i == 1 ? "" : "S"}!"
   end
-  puts "HAPPY NEW YEAR!"
+  "HAPPY NEW YEAR!"
 end
