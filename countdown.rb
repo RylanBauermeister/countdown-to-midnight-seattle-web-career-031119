@@ -2,7 +2,7 @@
 
 def countdown(num)
   num.downto(1) do |i|
-    puts "#{i} SECOND#{i == 1 ? "" : "S"}!"
+    puts "#{i} SECOND(S)!"
   end
   "HAPPY NEW YEAR!"
 end
